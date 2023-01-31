@@ -1,0 +1,20 @@
+[
+  "test_case/test_01_login/test_login.py::TestLogin::test_login_case01",
+  "test_case/test_01_login/test_reconnect.py::Test_Reconnect::test_reconnect_case01",
+  "test_case/test_02_message/test_01_textMes.py::TestText::test_textMes_case01",
+  "test_case/test_02_message/test_01_textMes.py::TestText::test_textMes_case02",
+  "test_case/test_02_message/test_02_picMes.py::TestPic::test_picMes_case01",
+  "test_case/test_02_message/test_02_picMes.py::TestPic::test_picMes_case02",
+  "test_case/test_02_message/test_03_voiceMes.py::TestVoice::test_voiceMes_case01",
+  "test_case/test_02_message/test_03_voiceMes.py::TestVoice::test_voiceMes_case02",
+  "test_case/test_02_message/test_04_videoMes.py::TestVideo::test_videoMes_case01",
+  "test_case/test_02_message/test_04_videoMes.py::TestVideo::test_videoMes_case02",
+  "test_case/test_03_group/test_01_createGroup.py::TestCreateGroup::test_createGroup_case01",
+  "test_case/test_03_group/test_02_addMembers.py::TestAddMembers::test_case01",
+  "test_case/test_03_group/test_03_stopGroup.py::TestStopGroup::test_case01",
+  "test_case/test_04_addressList/test_01_checkStructure.py::TestStructure::test_case01",
+  "test_case/test_05_chatRecord/test_01_findRecord.py::TestRecord::test_case01",
+  "test_case/test_06_workbench/test_01_msgCollect.py::TestCollect::test_case01",
+  "test_case/test_06_workbench/test_02_express.py::TestExpress::test_case01",
+  "test_publish/test_04_fileDownload.py::TestGroup::test_case01"
+]

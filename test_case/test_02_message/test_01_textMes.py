@@ -1,0 +1,88 @@
+# coding=utf-8
+import time
+import allure
+import pytest
+from selenium.webdriver.common.by import By
+from Common.publicMethod import PubMethod
+from base.assertMethod import AssertMethod
+from base.base import Base
+
+
+date = PubMethod.get_date()
+contact = PubMethod.get_csv_data(4)
+
+
+@allure.feature("消息的发送与接收")
+class TestText:
+
+    @allure.story('文本消息的发送与接收')
+    @allure.title('[case01] 验证文本消息的发送')
+    @pytest.mark.flaky(reruns=1)
+    @pytest.mark.dependency()
+    def test_textMes_case01(self, start_app, reload_app):
+        driver = start_app
+        base = Base(driver)
+        PubMethod.is_login(driver, 2)
+        driver.update_settings({
+                                "imageMatchThreshold": 0.9
+
+                                })
+        print(driver.get_window_size())
+
+        with allure.step("1、搜索联系人进入聊天窗口"):
+            time.sleep(5)
+            base.click_btn(locator=(By.XPATH, "//*[@text = '搜索']"))
+            base.send_key(locator=(By.XPATH, "//*[@class ='android.widget.EditText' and @text='搜索']"), value=contact[1])
+            base.click_btn(locator=(By.XPATH, "//*[@text='联系人']/../../android.view.ViewGroup[2]"))
+        with allure.step('2、验证是否进入聊天页'):
+            result = PubMethod.is_ele(driver, "//*[@text='发送']")
+            print("进入聊天页的结果是：{}".format(result))
+            AssertMethod.assert_true_screen_shot(driver, result)
+            base.value_clear(locator=(By.XPATH, "//*[@text='发送']/../../android.widget.EditText"))
+            base.send_key(locator=(By.XPATH, "//*[@text='发送']/../../android.widget.EditText"), value=date)
+            # base.click_btn(locator=(By.XPATH, '//*[@text="发送"]'))
+
+            # driver.find_element_by_image(r'C:\Users\shengjiaxin\Desktop\focustalk_android_04\send.png').click()
+            time.sleep(3)
+            # driver.update_settings({
+            #                         "imageMatchThreshold": 0.9,
+            #                         "getMatchedImageResult": True
+            #                         })
+            # el = driver.find_element_by_image(r"C:\Users\shengjiaxin\Desktop\focustalk_android_04\03.png")
+            # EL1= el.get_attribute('visual')
+            try:
+                driver.find_element(By.IMAGE, r"C:\Users\shengjiaxin\Desktop\focustalk_android_04\screen.png").click()
+            except :
+                base.click_btn(locator=(By.XPATH, '//*[@text="发送"]'))
+
+        with allure.step("4、验证消息是否已发送"):
+            edit_text = base.find_element(locator=(By.XPATH, "//*[@text='发送']/../../../android.widget.EditText")).text
+            result = PubMethod.is_ele(driver, "//*[@text='" + date + "']")
+            is_true = (len(edit_text) == 0) and result
+            AssertMethod.assert_true_screen_shot(driver, is_true)
+
+    @allure.story('文本消息的发送与接收')
+    @allure.title('[case02] 验证文本消息的接收')
+    @pytest.mark.flaky(reruns=1)
+    @pytest.mark.dependency(depends=["TestText::test_textMes_case01"])
+    def test_textMes_case02(self, start_app, reload_app):
+        driver = start_app
+        base = Base(driver)
+        with allure.step("1、登录接收方账号"):
+            time.sleep(3)
+            PubMethod.login(driver, 3)
+        with allure.step('2、验证是否进入聊天页'):
+            base.click_btn(locator=(By.XPATH, "//*[@text ='搜索']"))
+            base.send_key(locator=(By.XPATH, "//*[@class ='android.widget.EditText' and @text='搜索']"), value=contact[0])
+            base.click_btn(locator=(By.XPATH, "//*[@text='联系人']/../../android.view.ViewGroup[2]"))
+            result = PubMethod.is_ele(driver, "//*[@text='发送']")
+            print("进入聊天页的结果是：{}".format(result))
+            AssertMethod.assert_true_screen_shot(driver, result)
+        with allure.step("3、验证消息是否已收到"):
+            time.sleep(5)
+            result = PubMethod.is_ele(driver, "//*[@text='" + date + "']")
+            AssertMethod.assert_true_screen_shot(driver, result)
+
+
+if __name__ == "__main__":
+    pytest.main(["test_01_textMes.py"])

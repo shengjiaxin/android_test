@@ -1,0 +1,26 @@
+[
+    {
+        "name": "测试地址",
+        "values": [
+            "https://www.made-in-china.com"
+        ]
+    },
+    {
+        "name": "测试版本号",
+        "values": [
+            "V1.0.0"
+        ]
+    },
+    {
+        "name": "测试账户",
+        "values": [
+            "chenxueqing0724@focuschina.com"
+        ]
+    },
+    {
+        "name": "测试说明",
+        "values": [
+            "app test_ca description"
+        ]
+    }
+]

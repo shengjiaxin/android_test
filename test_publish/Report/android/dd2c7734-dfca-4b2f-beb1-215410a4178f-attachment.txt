@@ -1,0 +1,95 @@
+11:36:22 INFO 输出定位器信息：('xpath', "//*[@text='搜索']")
+11:36:22 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='搜索']
+11:36:23 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="70622569-ad6a-4316-863b-3219cb086e19", element="00000000-0000-0223-ffff-ffff00000066")>
+11:36:23 INFO 元素对象点击成功
+11:36:23 INFO 输出定位器信息：('xpath', "//*[@class ='android.widget.EditText' and @text='搜索']")
+11:36:23 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@class ='android.widget.EditText' and @text='搜索']
+11:36:24 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="70622569-ad6a-4316-863b-3219cb086e19", element="00000000-0000-0223-ffff-ffff000000d8")>
+11:36:25 INFO 元素对象输入值成功，值为：群模块测试
+11:36:28 INFO 输出定位器信息：('xpath', "//*[@text='群']/../following-sibling::android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.TextView")
+11:36:28 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='群']/../following-sibling::android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.TextView
+11:36:28 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="70622569-ad6a-4316-863b-3219cb086e19", element="00000000-0000-0223-ffff-ffff000000e9")>
+11:36:28 INFO 元素对象点击成功
+11:36:30 INFO 正在进行元素断言：断言方式->True：是否等于True
+11:36:30 INFO 输出定位器信息：('xpath', "//*[@text='发送']/../../../android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.ImageView")
+11:36:30 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='发送']/../../../android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.ImageView
+11:36:31 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="70622569-ad6a-4316-863b-3219cb086e19", element="00000000-0000-0223-ffff-ffff000000fb")>
+11:36:31 INFO 元素对象点击成功
+11:36:31 INFO 输出定位器信息：('xpath', "//*[@text='群文件']")
+11:36:31 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='群文件']
+11:36:33 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="70622569-ad6a-4316-863b-3219cb086e19", element="00000000-0000-0223-ffff-ffff00000150")>
+11:36:33 INFO 元素对象点击成功
+11:36:41 INFO 正在进行元素断言：断言方式->False：是否等于False->False
+11:36:41 INFO 输出定位器信息：('xpath', "//android.widget.TextView[@text='focustalk.apk']")
+11:36:41 INFO 正在定位元素信息：定位方式->xpath,value值->//android.widget.TextView[@text='focustalk.apk']
+11:36:42 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="70622569-ad6a-4316-863b-3219cb086e19", element="00000000-0000-0223-ffff-ffff0000011a")>
+11:36:42 INFO 元素对象点击成功
+11:36:42 INFO 输出定位器信息：('xpath', "//android.widget.TextView[@text='focustalk.apk']")
+11:36:42 INFO 正在定位元素信息：定位方式->xpath,value值->//android.widget.TextView[@text='focustalk.apk']
+11:36:43 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="70622569-ad6a-4316-863b-3219cb086e19", element="00000000-0000-0223-ffff-ffff0000011a")>
+11:36:43 INFO 元素对象点击成功
+11:37:04 INFO 正在进行元素断言：断言方式->False：是否等于True
+11:37:04 ERROR 断言执行失败，错误信息为：
+11:37:04 INFO 正在进行截图操作：
+11:37:05 INFO 截图成功，picture_url为：Report/picture/2022-10-08-11-37-04.png
+11:37:05 INFO 输出定位器信息：('xpath', "//*[@text='focustalk.apk']/../android.view.ViewGroup")
+11:37:05 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='focustalk.apk']/../android.view.ViewGroup
+11:37:16 ERROR 定位不到元素，错误信息为:Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\chenxueqing0724\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+11:37:16 ERROR 元素对象点击失败，错误信息为：'str' object has no attribute 'click'
+11:37:16 INFO 输出定位器信息：('xpath', "//*[@text='群文件']/../android.view.ViewGroup")
+11:37:16 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='群文件']/../android.view.ViewGroup
+11:37:26 ERROR 定位不到元素，错误信息为:Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\chenxueqing0724\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+11:37:26 ERROR 元素对象点击失败，错误信息为：'str' object has no attribute 'click'
+11:37:26 INFO 输出定位器信息：('xpath', "//*[@text='群设置']/../android.view.ViewGroup")
+11:37:26 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='群设置']/../android.view.ViewGroup
+11:37:37 ERROR 定位不到元素，错误信息为:Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\chenxueqing0724\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+11:37:37 ERROR 元素对象点击失败，错误信息为：'str' object has no attribute 'click'
+11:37:40 INFO 输出定位器信息：('xpath', "//*[@text='发送']/../../../android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[1]")
+11:37:40 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='发送']/../../../android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[1]
+11:37:51 ERROR 定位不到元素，错误信息为:Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\chenxueqing0724\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+11:37:51 ERROR 元素对象点击失败，错误信息为：'str' object has no attribute 'click'
+11:37:51 INFO 输出定位器信息：('xpath', "//*[@text='取消']")
+11:37:51 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='取消']
+11:38:01 ERROR 定位不到元素，错误信息为:Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\chenxueqing0724\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+11:38:01 ERROR 元素对象点击失败，错误信息为：'str' object has no attribute 'click'
+11:38:01 INFO 输出定位器信息：('xpath', "//android.widget.Button[@content-desc='我的, tab, 4 of 4']/android.widget.ImageView")
+11:38:01 INFO 正在定位元素信息：定位方式->xpath,value值->//android.widget.Button[@content-desc='我的, tab, 4 of 4']/android.widget.ImageView
+11:38:11 ERROR 定位不到元素，错误信息为:Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\chenxueqing0724\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+11:38:11 ERROR 元素对象点击失败，错误信息为：'str' object has no attribute 'click'
+11:38:11 INFO 输出定位器信息：('xpath', "//*[@text='清除缓存']")
+11:38:11 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='清除缓存']
+11:38:11 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="70622569-ad6a-4316-863b-3219cb086e19", element="00000000-0000-0223-ffff-ffff00000252")>
+11:38:11 INFO 元素对象点击成功
+11:38:11 INFO 输出定位器信息：('xpath', "//*[@text='确定']")
+11:38:11 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='确定']
+11:38:12 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="70622569-ad6a-4316-863b-3219cb086e19", element="00000000-0000-0226-ffff-ffff000002bc")>
+11:38:12 INFO 元素对象点击成功
+11:38:12 INFO 输出定位器信息：('id', 'android:id/button1')
+11:38:12 INFO 正在定位元素信息：定位方式->id,value值->android:id/button1
+11:38:13 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="70622569-ad6a-4316-863b-3219cb086e19", element="00000000-0000-0227-ffff-ffff000002df")>
+11:38:13 INFO 元素对象点击成功

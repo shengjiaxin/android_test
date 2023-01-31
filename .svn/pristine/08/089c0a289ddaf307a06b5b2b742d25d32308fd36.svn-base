@@ -1,0 +1,91 @@
+2022-10-08 13:43:23 DEBUG POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"alwaysMatch": {"platformName": "Android", "appium:deviceName": "448c1e270510", "appium:platformVersion": "11", "appium:appPackage": "com.focus.focustalk", "appium:appActivity": "com.focus.focustalk.MainActivity", "appium:noReset": true, "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:waitForIdleTimeout": 100}, "firstMatch": [{}]}, "desiredCapabilities": {"platformName": "Android", "deviceName": "448c1e270510", "platformVersion": "11", "appPackage": "com.focus.focustalk", "appActivity": "com.focus.focustalk.MainActivity", "noReset": true, "unicodeKeyboard": true, "resetKeyboard": true, "waitForIdleTimeout": 100}}
+2022-10-08 13:43:23 DEBUG Starting new HTTP connection (1): 127.0.0.1:4723
+2022-10-08 13:43:32 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1036
+2022-10-08 13:43:32 DEBUG Finished Request
+2022-10-08 13:43:32 DEBUG POST http://127.0.0.1:4723/wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element {"using": "xpath", "value": "//*[@text=\"\u767b\u5f55\"]"}
+2022-10-08 13:43:33 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element HTTP/1.1" 404 540
+2022-10-08 13:43:33 DEBUG Finished Request
+2022-10-08 13:43:34 DEBUG POST http://127.0.0.1:4723/wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element {"using": "xpath", "value": "//*[@text=\"\u767b\u5f55\"]"}
+2022-10-08 13:43:34 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element HTTP/1.1" 404 540
+2022-10-08 13:43:34 DEBUG Finished Request
+2022-10-08 13:43:34 DEBUG POST http://127.0.0.1:4723/wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element {"using": "xpath", "value": "//*[@text=\"\u767b\u5f55\"]"}
+2022-10-08 13:43:34 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element HTTP/1.1" 404 540
+2022-10-08 13:43:34 DEBUG Finished Request
+2022-10-08 13:43:35 DEBUG POST http://127.0.0.1:4723/wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element {"using": "xpath", "value": "//*[@text=\"\u767b\u5f55\"]"}
+2022-10-08 13:43:35 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element HTTP/1.1" 404 540
+2022-10-08 13:43:35 DEBUG Finished Request
+2022-10-08 13:43:35 DEBUG POST http://127.0.0.1:4723/wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element {"using": "xpath", "value": "//*[@text=\"\u767b\u5f55\"]"}
+2022-10-08 13:43:35 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element HTTP/1.1" 404 540
+2022-10-08 13:43:35 DEBUG Finished Request
+2022-10-08 13:43:36 DEBUG POST http://127.0.0.1:4723/wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element {"using": "xpath", "value": "//*[@text=\"\u767b\u5f55\"]"}
+2022-10-08 13:43:36 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element HTTP/1.1" 404 540
+2022-10-08 13:43:36 DEBUG Finished Request
+2022-10-08 13:43:36 DEBUG POST http://127.0.0.1:4723/wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element {"using": "xpath", "value": "//*[@text=\"\u767b\u5f55\"]"}
+2022-10-08 13:43:36 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element HTTP/1.1" 404 540
+2022-10-08 13:43:36 DEBUG Finished Request
+2022-10-08 13:43:37 DEBUG POST http://127.0.0.1:4723/wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element {"using": "xpath", "value": "//*[@text=\"\u767b\u5f55\"]"}
+2022-10-08 13:43:37 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element HTTP/1.1" 404 540
+2022-10-08 13:43:37 DEBUG Finished Request
+2022-10-08 13:43:43 INFO 输出定位器信息：('xpath', '//android.widget.Button[@content-desc="通讯录, tab, 3 of 4"]')
+2022-10-08 13:43:43 INFO 正在定位元素信息：定位方式->xpath,value值->//android.widget.Button[@content-desc="通讯录, tab, 3 of 4"]
+2022-10-08 13:43:43 DEBUG POST http://127.0.0.1:4723/wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element {"using": "xpath", "value": "//android.widget.Button[@content-desc=\"\u901a\u8baf\u5f55, tab, 3 of 4\"]"}
+2022-10-08 13:43:43 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element HTTP/1.1" 200 137
+2022-10-08 13:43:43 DEBUG Finished Request
+2022-10-08 13:43:43 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="32ae3f18-0bbb-4230-b5e5-fe6aac3d7565", element="00000000-0000-0485-ffff-ffff00000045")>
+2022-10-08 13:43:43 DEBUG POST http://127.0.0.1:4723/wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element/00000000-0000-0485-ffff-ffff00000045/click {"id": "00000000-0000-0485-ffff-ffff00000045"}
+2022-10-08 13:43:43 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element/00000000-0000-0485-ffff-ffff00000045/click HTTP/1.1" 200 14
+2022-10-08 13:43:43 DEBUG Finished Request
+2022-10-08 13:43:43 INFO 元素对象点击成功
+2022-10-08 13:43:43 INFO 输出定位器信息：('xpath', "//*[@text ='组织架构']")
+2022-10-08 13:43:43 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text ='组织架构']
+2022-10-08 13:43:43 DEBUG POST http://127.0.0.1:4723/wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element {"using": "xpath", "value": "//*[@text ='\u7ec4\u7ec7\u67b6\u6784']"}
+2022-10-08 13:43:43 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element HTTP/1.1" 404 540
+2022-10-08 13:43:43 DEBUG Finished Request
+2022-10-08 13:43:44 DEBUG POST http://127.0.0.1:4723/wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element {"using": "xpath", "value": "//*[@text ='\u7ec4\u7ec7\u67b6\u6784']"}
+2022-10-08 13:43:44 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element HTTP/1.1" 200 137
+2022-10-08 13:43:44 DEBUG Finished Request
+2022-10-08 13:43:44 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="32ae3f18-0bbb-4230-b5e5-fe6aac3d7565", element="00000000-0000-0485-ffff-ffff000000f4")>
+2022-10-08 13:43:44 DEBUG POST http://127.0.0.1:4723/wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element/00000000-0000-0485-ffff-ffff000000f4/click {"id": "00000000-0000-0485-ffff-ffff000000f4"}
+2022-10-08 13:43:44 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element/00000000-0000-0485-ffff-ffff000000f4/click HTTP/1.1" 200 14
+2022-10-08 13:43:44 DEBUG Finished Request
+2022-10-08 13:43:44 INFO 元素对象点击成功
+2022-10-08 13:43:47 DEBUG POST http://127.0.0.1:4723/wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element {"using": "xpath", "value": "//*[@text='\u5e94\u7528\u5f00\u53d1\u90e8']"}
+2022-10-08 13:43:47 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element HTTP/1.1" 200 137
+2022-10-08 13:43:47 DEBUG Finished Request
+2022-10-08 13:43:47 DEBUG GET http://127.0.0.1:4723/wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element/00000000-0000-0485-ffff-ffff0000011e/displayed {"id": "00000000-0000-0485-ffff-ffff0000011e"}
+2022-10-08 13:43:47 DEBUG http://127.0.0.1:4723 "GET /wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element/00000000-0000-0485-ffff-ffff0000011e/displayed HTTP/1.1" 200 14
+2022-10-08 13:43:47 DEBUG Finished Request
+2022-10-08 13:43:47 INFO 正在进行元素断言：断言方式->True：是否等于True
+2022-10-08 13:43:47 DEBUG POST http://127.0.0.1:4723/wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element {"using": "xpath", "value": "//*[contains(@text,'\u8c0c\u96ea\u6674')]"}
+2022-10-08 13:43:48 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element HTTP/1.1" 200 137
+2022-10-08 13:43:48 DEBUG Finished Request
+2022-10-08 13:43:48 DEBUG GET http://127.0.0.1:4723/wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element/00000000-0000-0485-ffff-ffff0000016c/displayed {"id": "00000000-0000-0485-ffff-ffff0000016c"}
+2022-10-08 13:43:48 DEBUG http://127.0.0.1:4723 "GET /wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element/00000000-0000-0485-ffff-ffff0000016c/displayed HTTP/1.1" 200 14
+2022-10-08 13:43:48 DEBUG Finished Request
+2022-10-08 13:43:48 INFO 正在进行元素断言：断言方式->True：是否等于True
+2022-10-08 13:43:48 INFO 输出定位器信息：('xpath', "//*[@text ='研发中心']")
+2022-10-08 13:43:48 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text ='研发中心']
+2022-10-08 13:43:48 DEBUG POST http://127.0.0.1:4723/wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element {"using": "xpath", "value": "//*[@text ='\u7814\u53d1\u4e2d\u5fc3']"}
+2022-10-08 13:43:48 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element HTTP/1.1" 200 137
+2022-10-08 13:43:48 DEBUG Finished Request
+2022-10-08 13:43:48 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="32ae3f18-0bbb-4230-b5e5-fe6aac3d7565", element="00000000-0000-0485-ffff-ffff0000011b")>
+2022-10-08 13:43:48 DEBUG POST http://127.0.0.1:4723/wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element/00000000-0000-0485-ffff-ffff0000011b/click {"id": "00000000-0000-0485-ffff-ffff0000011b"}
+2022-10-08 13:43:48 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element/00000000-0000-0485-ffff-ffff0000011b/click HTTP/1.1" 200 14
+2022-10-08 13:43:48 DEBUG Finished Request
+2022-10-08 13:43:48 INFO 元素对象点击成功
+2022-10-08 13:43:48 DEBUG GET http://127.0.0.1:4723/wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/window/rect {}
+2022-10-08 13:43:48 DEBUG http://127.0.0.1:4723 "GET /wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/window/rect HTTP/1.1" 200 50
+2022-10-08 13:43:48 DEBUG Finished Request
+2022-10-08 13:43:48 DEBUG POST http://127.0.0.1:4723/wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "touch"}, "id": "touch", "actions": [{"type": "pointerMove", "duration": 250, "x": 540, "y": 1689, "origin": "viewport"}, {"type": "pointerDown", "duration": 0, "button": 0}, {"type": "pause", "duration": 500}, {"type": "pointerMove", "duration": 250, "x": 540, "y": 563, "origin": "viewport"}, {"type": "pointerUp", "duration": 0, "button": 0}]}]}
+2022-10-08 13:43:49 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/actions HTTP/1.1" 200 14
+2022-10-08 13:43:49 DEBUG Finished Request
+2022-10-08 13:43:49 DEBUG POST http://127.0.0.1:4723/wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element {"using": "xpath", "value": "//*[contains(@text,'\u5e94\u7528\u5f00\u53d1\u90e8')]"}
+2022-10-08 13:43:50 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element HTTP/1.1" 200 137
+2022-10-08 13:43:50 DEBUG Finished Request
+2022-10-08 13:43:50 DEBUG GET http://127.0.0.1:4723/wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element/00000000-0000-0485-ffff-ffff00000180/displayed {"id": "00000000-0000-0485-ffff-ffff00000180"}
+2022-10-08 13:43:50 DEBUG http://127.0.0.1:4723 "GET /wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565/element/00000000-0000-0485-ffff-ffff00000180/displayed HTTP/1.1" 200 14
+2022-10-08 13:43:50 DEBUG Finished Request
+2022-10-08 13:43:50 INFO 正在进行元素断言：断言方式->True：是否等于True
+2022-10-08 13:43:50 DEBUG DELETE http://127.0.0.1:4723/wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565 {}
+2022-10-08 13:43:51 DEBUG http://127.0.0.1:4723 "DELETE /wd/hub/session/32ae3f18-0bbb-4230-b5e5-fe6aac3d7565 HTTP/1.1" 200 14
+2022-10-08 13:43:51 DEBUG Finished Request

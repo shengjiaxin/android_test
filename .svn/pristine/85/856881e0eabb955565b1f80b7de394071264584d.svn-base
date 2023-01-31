@@ -1,0 +1,9 @@
+13:38:49 INFO 输出定位器信息：('xpath', "//android.widget.Button[@content-desc='工作台, tab, 2 of 4']")
+13:38:49 INFO 正在定位元素信息：定位方式->xpath,value值->//android.widget.Button[@content-desc='工作台, tab, 2 of 4']
+13:38:50 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="1aad82cb-4e93-4add-b790-db682fd2b540", element="00000000-0000-0474-ffff-ffff0000003e")>
+13:38:50 INFO 元素对象点击成功
+13:38:50 INFO 输出定位器信息：('xpath', "//*[@text='快递']")
+13:38:50 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='快递']
+13:38:51 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="1aad82cb-4e93-4add-b790-db682fd2b540", element="00000000-0000-0474-ffff-ffff00000117")>
+13:38:52 INFO 元素对象点击成功
+13:39:00 INFO 正在进行元素断言：断言方式->True：是否等于True

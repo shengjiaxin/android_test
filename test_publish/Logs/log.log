@@ -1,0 +1,498 @@
+2022-10-08 11:36:01 DEBUG POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"alwaysMatch": {"platformName": "Android", "appium:deviceName": "448c1e270510", "appium:platformVersion": "11", "appium:appPackage": "com.focus.focustalk", "appium:appActivity": "com.focus.focustalk.MainActivity", "appium:noReset": true, "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:waitForIdleTimeout": 100}, "firstMatch": [{}]}, "desiredCapabilities": {"platformName": "Android", "deviceName": "448c1e270510", "platformVersion": "11", "appPackage": "com.focus.focustalk", "appActivity": "com.focus.focustalk.MainActivity", "noReset": true, "unicodeKeyboard": true, "resetKeyboard": true, "waitForIdleTimeout": 100}}
+2022-10-08 11:36:01 DEBUG Starting new HTTP connection (1): 127.0.0.1:4723
+2022-10-08 11:36:12 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1036
+2022-10-08 11:36:12 DEBUG Finished Request
+2022-10-08 11:36:12 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text=\"\u767b\u5f55\"]"}
+2022-10-08 11:36:13 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:36:13 DEBUG Finished Request
+2022-10-08 11:36:13 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text=\"\u767b\u5f55\"]"}
+2022-10-08 11:36:13 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:36:13 DEBUG Finished Request
+2022-10-08 11:36:14 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text=\"\u767b\u5f55\"]"}
+2022-10-08 11:36:14 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:36:14 DEBUG Finished Request
+2022-10-08 11:36:14 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text=\"\u767b\u5f55\"]"}
+2022-10-08 11:36:14 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:36:14 DEBUG Finished Request
+2022-10-08 11:36:15 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text=\"\u767b\u5f55\"]"}
+2022-10-08 11:36:15 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:36:15 DEBUG Finished Request
+2022-10-08 11:36:15 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text=\"\u767b\u5f55\"]"}
+2022-10-08 11:36:16 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:36:16 DEBUG Finished Request
+2022-10-08 11:36:16 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text=\"\u767b\u5f55\"]"}
+2022-10-08 11:36:16 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:36:16 DEBUG Finished Request
+2022-10-08 11:36:17 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text=\"\u767b\u5f55\"]"}
+2022-10-08 11:36:17 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:36:17 DEBUG Finished Request
+2022-10-08 11:36:22 INFO 输出定位器信息：('xpath', "//*[@text='搜索']")
+2022-10-08 11:36:22 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='搜索']
+2022-10-08 11:36:22 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u641c\u7d22']"}
+2022-10-08 11:36:23 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 200 137
+2022-10-08 11:36:23 DEBUG Finished Request
+2022-10-08 11:36:23 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="70622569-ad6a-4316-863b-3219cb086e19", element="00000000-0000-0223-ffff-ffff00000066")>
+2022-10-08 11:36:23 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element/00000000-0000-0223-ffff-ffff00000066/click {"id": "00000000-0000-0223-ffff-ffff00000066"}
+2022-10-08 11:36:23 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element/00000000-0000-0223-ffff-ffff00000066/click HTTP/1.1" 200 14
+2022-10-08 11:36:23 DEBUG Finished Request
+2022-10-08 11:36:23 INFO 元素对象点击成功
+2022-10-08 11:36:23 INFO 输出定位器信息：('xpath', "//*[@class ='android.widget.EditText' and @text='搜索']")
+2022-10-08 11:36:23 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@class ='android.widget.EditText' and @text='搜索']
+2022-10-08 11:36:23 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@class ='android.widget.EditText' and @text='\u641c\u7d22']"}
+2022-10-08 11:36:23 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:36:23 DEBUG Finished Request
+2022-10-08 11:36:24 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@class ='android.widget.EditText' and @text='\u641c\u7d22']"}
+2022-10-08 11:36:24 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 200 137
+2022-10-08 11:36:24 DEBUG Finished Request
+2022-10-08 11:36:24 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="70622569-ad6a-4316-863b-3219cb086e19", element="00000000-0000-0223-ffff-ffff000000d8")>
+2022-10-08 11:36:24 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element/00000000-0000-0223-ffff-ffff000000d8/value {"text": "\u7fa4\u6a21\u5757\u6d4b\u8bd5", "value": ["\u7fa4", "\u6a21", "\u5757", "\u6d4b", "\u8bd5"], "id": "00000000-0000-0223-ffff-ffff000000d8"}
+2022-10-08 11:36:25 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element/00000000-0000-0223-ffff-ffff000000d8/value HTTP/1.1" 200 14
+2022-10-08 11:36:25 DEBUG Finished Request
+2022-10-08 11:36:25 INFO 元素对象输入值成功，值为：群模块测试
+2022-10-08 11:36:28 INFO 输出定位器信息：('xpath', "//*[@text='群']/../following-sibling::android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.TextView")
+2022-10-08 11:36:28 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='群']/../following-sibling::android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.TextView
+2022-10-08 11:36:28 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4']/../following-sibling::android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.TextView"}
+2022-10-08 11:36:28 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 200 137
+2022-10-08 11:36:28 DEBUG Finished Request
+2022-10-08 11:36:28 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="70622569-ad6a-4316-863b-3219cb086e19", element="00000000-0000-0223-ffff-ffff000000e9")>
+2022-10-08 11:36:28 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element/00000000-0000-0223-ffff-ffff000000e9/click {"id": "00000000-0000-0223-ffff-ffff000000e9"}
+2022-10-08 11:36:28 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element/00000000-0000-0223-ffff-ffff000000e9/click HTTP/1.1" 200 14
+2022-10-08 11:36:28 DEBUG Finished Request
+2022-10-08 11:36:28 INFO 元素对象点击成功
+2022-10-08 11:36:28 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d1\u9001']"}
+2022-10-08 11:36:29 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:36:29 DEBUG Finished Request
+2022-10-08 11:36:29 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d1\u9001']"}
+2022-10-08 11:36:30 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 200 137
+2022-10-08 11:36:30 DEBUG Finished Request
+2022-10-08 11:36:30 DEBUG GET http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element/00000000-0000-0223-ffff-ffff00000122/displayed {"id": "00000000-0000-0223-ffff-ffff00000122"}
+2022-10-08 11:36:30 DEBUG http://127.0.0.1:4723 "GET /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element/00000000-0000-0223-ffff-ffff00000122/displayed HTTP/1.1" 200 14
+2022-10-08 11:36:30 DEBUG Finished Request
+2022-10-08 11:36:30 INFO 正在进行元素断言：断言方式->True：是否等于True
+2022-10-08 11:36:30 INFO 输出定位器信息：('xpath', "//*[@text='发送']/../../../android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.ImageView")
+2022-10-08 11:36:30 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='发送']/../../../android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.ImageView
+2022-10-08 11:36:30 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d1\u9001']/../../../android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.ImageView"}
+2022-10-08 11:36:31 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 200 137
+2022-10-08 11:36:31 DEBUG Finished Request
+2022-10-08 11:36:31 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="70622569-ad6a-4316-863b-3219cb086e19", element="00000000-0000-0223-ffff-ffff000000fb")>
+2022-10-08 11:36:31 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element/00000000-0000-0223-ffff-ffff000000fb/click {"id": "00000000-0000-0223-ffff-ffff000000fb"}
+2022-10-08 11:36:31 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element/00000000-0000-0223-ffff-ffff000000fb/click HTTP/1.1" 200 14
+2022-10-08 11:36:31 DEBUG Finished Request
+2022-10-08 11:36:31 INFO 元素对象点击成功
+2022-10-08 11:36:31 INFO 输出定位器信息：('xpath', "//*[@text='群文件']")
+2022-10-08 11:36:31 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='群文件']
+2022-10-08 11:36:31 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u6587\u4ef6']"}
+2022-10-08 11:36:32 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:36:32 DEBUG Finished Request
+2022-10-08 11:36:32 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u6587\u4ef6']"}
+2022-10-08 11:36:33 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 200 137
+2022-10-08 11:36:33 DEBUG Finished Request
+2022-10-08 11:36:33 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="70622569-ad6a-4316-863b-3219cb086e19", element="00000000-0000-0223-ffff-ffff00000150")>
+2022-10-08 11:36:33 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element/00000000-0000-0223-ffff-ffff00000150/click {"id": "00000000-0000-0223-ffff-ffff00000150"}
+2022-10-08 11:36:33 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element/00000000-0000-0223-ffff-ffff00000150/click HTTP/1.1" 200 14
+2022-10-08 11:36:33 DEBUG Finished Request
+2022-10-08 11:36:33 INFO 元素对象点击成功
+2022-10-08 11:36:36 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[contains(@text,'\u6682\u65f6\u6ca1\u6709')]"}
+2022-10-08 11:36:36 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:36:36 DEBUG Finished Request
+2022-10-08 11:36:37 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[contains(@text,'\u6682\u65f6\u6ca1\u6709')]"}
+2022-10-08 11:36:37 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:36:37 DEBUG Finished Request
+2022-10-08 11:36:38 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[contains(@text,'\u6682\u65f6\u6ca1\u6709')]"}
+2022-10-08 11:36:38 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:36:38 DEBUG Finished Request
+2022-10-08 11:36:39 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[contains(@text,'\u6682\u65f6\u6ca1\u6709')]"}
+2022-10-08 11:36:40 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:36:40 DEBUG Finished Request
+2022-10-08 11:36:40 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[contains(@text,'\u6682\u65f6\u6ca1\u6709')]"}
+2022-10-08 11:36:41 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:36:41 DEBUG Finished Request
+2022-10-08 11:36:41 INFO 正在进行元素断言：断言方式->False：是否等于False->False
+2022-10-08 11:36:41 INFO 输出定位器信息：('xpath', "//android.widget.TextView[@text='focustalk.apk']")
+2022-10-08 11:36:41 INFO 正在定位元素信息：定位方式->xpath,value值->//android.widget.TextView[@text='focustalk.apk']
+2022-10-08 11:36:41 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//android.widget.TextView[@text='focustalk.apk']"}
+2022-10-08 11:36:42 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 200 137
+2022-10-08 11:36:42 DEBUG Finished Request
+2022-10-08 11:36:42 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="70622569-ad6a-4316-863b-3219cb086e19", element="00000000-0000-0223-ffff-ffff0000011a")>
+2022-10-08 11:36:42 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element/00000000-0000-0223-ffff-ffff0000011a/click {"id": "00000000-0000-0223-ffff-ffff0000011a"}
+2022-10-08 11:36:42 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element/00000000-0000-0223-ffff-ffff0000011a/click HTTP/1.1" 200 14
+2022-10-08 11:36:42 DEBUG Finished Request
+2022-10-08 11:36:42 INFO 元素对象点击成功
+2022-10-08 11:36:42 INFO 输出定位器信息：('xpath', "//android.widget.TextView[@text='focustalk.apk']")
+2022-10-08 11:36:42 INFO 正在定位元素信息：定位方式->xpath,value值->//android.widget.TextView[@text='focustalk.apk']
+2022-10-08 11:36:42 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//android.widget.TextView[@text='focustalk.apk']"}
+2022-10-08 11:36:43 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 200 137
+2022-10-08 11:36:43 DEBUG Finished Request
+2022-10-08 11:36:43 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="70622569-ad6a-4316-863b-3219cb086e19", element="00000000-0000-0223-ffff-ffff0000011a")>
+2022-10-08 11:36:43 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element/00000000-0000-0223-ffff-ffff0000011a/click {"id": "00000000-0000-0223-ffff-ffff0000011a"}
+2022-10-08 11:36:43 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element/00000000-0000-0223-ffff-ffff0000011a/click HTTP/1.1" 200 14
+2022-10-08 11:36:43 DEBUG Finished Request
+2022-10-08 11:36:43 INFO 元素对象点击成功
+2022-10-08 11:36:43 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[contains(@text,'\u6b63\u5728\u4e0b\u8f7d')]"}
+2022-10-08 11:36:43 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:36:43 DEBUG Finished Request
+2022-10-08 11:36:44 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[contains(@text,'\u6b63\u5728\u4e0b\u8f7d')]"}
+2022-10-08 11:36:44 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:36:44 DEBUG Finished Request
+2022-10-08 11:36:45 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[contains(@text,'\u6b63\u5728\u4e0b\u8f7d')]"}
+2022-10-08 11:36:45 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:36:45 DEBUG Finished Request
+2022-10-08 11:36:46 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[contains(@text,'\u6b63\u5728\u4e0b\u8f7d')]"}
+2022-10-08 11:36:46 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:36:46 DEBUG Finished Request
+2022-10-08 11:36:46 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[contains(@text,'\u6b63\u5728\u4e0b\u8f7d')]"}
+2022-10-08 11:36:47 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:36:47 DEBUG Finished Request
+2022-10-08 11:36:48 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[contains(@text,'\u6b63\u5728\u4e0b\u8f7d')]"}
+2022-10-08 11:36:48 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:36:48 DEBUG Finished Request
+2022-10-08 11:36:59 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//android.widget.TextView[@text='\u7528\u5176\u4ed6\u5e94\u7528\u6253\u5f00']"}
+2022-10-08 11:36:59 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:36:59 DEBUG Finished Request
+2022-10-08 11:37:00 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//android.widget.TextView[@text='\u7528\u5176\u4ed6\u5e94\u7528\u6253\u5f00']"}
+2022-10-08 11:37:00 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:00 DEBUG Finished Request
+2022-10-08 11:37:01 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//android.widget.TextView[@text='\u7528\u5176\u4ed6\u5e94\u7528\u6253\u5f00']"}
+2022-10-08 11:37:01 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:01 DEBUG Finished Request
+2022-10-08 11:37:02 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//android.widget.TextView[@text='\u7528\u5176\u4ed6\u5e94\u7528\u6253\u5f00']"}
+2022-10-08 11:37:02 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:02 DEBUG Finished Request
+2022-10-08 11:37:02 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//android.widget.TextView[@text='\u7528\u5176\u4ed6\u5e94\u7528\u6253\u5f00']"}
+2022-10-08 11:37:03 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:03 DEBUG Finished Request
+2022-10-08 11:37:03 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//android.widget.TextView[@text='\u7528\u5176\u4ed6\u5e94\u7528\u6253\u5f00']"}
+2022-10-08 11:37:03 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:03 DEBUG Finished Request
+2022-10-08 11:37:04 INFO 正在进行元素断言：断言方式->False：是否等于True
+2022-10-08 11:37:04 ERROR 断言执行失败，错误信息为：
+2022-10-08 11:37:04 INFO 正在进行截图操作：
+2022-10-08 11:37:04 DEBUG GET http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/screenshot {}
+2022-10-08 11:37:05 DEBUG http://127.0.0.1:4723 "GET /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/screenshot HTTP/1.1" 200 218750
+2022-10-08 11:37:05 DEBUG Finished Request
+2022-10-08 11:37:05 INFO 截图成功，picture_url为：Report/picture/2022-10-08-11-37-04.png
+2022-10-08 11:37:05 INFO 输出定位器信息：('xpath', "//*[@text='focustalk.apk']/../android.view.ViewGroup")
+2022-10-08 11:37:05 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='focustalk.apk']/../android.view.ViewGroup
+2022-10-08 11:37:05 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='focustalk.apk']/../android.view.ViewGroup"}
+2022-10-08 11:37:05 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:05 DEBUG Finished Request
+2022-10-08 11:37:06 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='focustalk.apk']/../android.view.ViewGroup"}
+2022-10-08 11:37:06 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:06 DEBUG Finished Request
+2022-10-08 11:37:06 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='focustalk.apk']/../android.view.ViewGroup"}
+2022-10-08 11:37:06 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:06 DEBUG Finished Request
+2022-10-08 11:37:07 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='focustalk.apk']/../android.view.ViewGroup"}
+2022-10-08 11:37:07 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:07 DEBUG Finished Request
+2022-10-08 11:37:08 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='focustalk.apk']/../android.view.ViewGroup"}
+2022-10-08 11:37:08 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:08 DEBUG Finished Request
+2022-10-08 11:37:09 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='focustalk.apk']/../android.view.ViewGroup"}
+2022-10-08 11:37:09 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:09 DEBUG Finished Request
+2022-10-08 11:37:09 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='focustalk.apk']/../android.view.ViewGroup"}
+2022-10-08 11:37:10 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:10 DEBUG Finished Request
+2022-10-08 11:37:10 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='focustalk.apk']/../android.view.ViewGroup"}
+2022-10-08 11:37:10 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:10 DEBUG Finished Request
+2022-10-08 11:37:11 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='focustalk.apk']/../android.view.ViewGroup"}
+2022-10-08 11:37:11 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:11 DEBUG Finished Request
+2022-10-08 11:37:12 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='focustalk.apk']/../android.view.ViewGroup"}
+2022-10-08 11:37:12 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:12 DEBUG Finished Request
+2022-10-08 11:37:13 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='focustalk.apk']/../android.view.ViewGroup"}
+2022-10-08 11:37:13 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:13 DEBUG Finished Request
+2022-10-08 11:37:14 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='focustalk.apk']/../android.view.ViewGroup"}
+2022-10-08 11:37:14 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:14 DEBUG Finished Request
+2022-10-08 11:37:15 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='focustalk.apk']/../android.view.ViewGroup"}
+2022-10-08 11:37:15 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:15 DEBUG Finished Request
+2022-10-08 11:37:16 ERROR 定位不到元素，错误信息为:Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\chenxueqing0724\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+2022-10-08 11:37:16 ERROR 元素对象点击失败，错误信息为：'str' object has no attribute 'click'
+2022-10-08 11:37:16 INFO 输出定位器信息：('xpath', "//*[@text='群文件']/../android.view.ViewGroup")
+2022-10-08 11:37:16 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='群文件']/../android.view.ViewGroup
+2022-10-08 11:37:16 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u6587\u4ef6']/../android.view.ViewGroup"}
+2022-10-08 11:37:16 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:16 DEBUG Finished Request
+2022-10-08 11:37:16 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u6587\u4ef6']/../android.view.ViewGroup"}
+2022-10-08 11:37:17 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:17 DEBUG Finished Request
+2022-10-08 11:37:17 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u6587\u4ef6']/../android.view.ViewGroup"}
+2022-10-08 11:37:17 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:17 DEBUG Finished Request
+2022-10-08 11:37:18 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u6587\u4ef6']/../android.view.ViewGroup"}
+2022-10-08 11:37:18 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:18 DEBUG Finished Request
+2022-10-08 11:37:19 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u6587\u4ef6']/../android.view.ViewGroup"}
+2022-10-08 11:37:19 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:19 DEBUG Finished Request
+2022-10-08 11:37:19 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u6587\u4ef6']/../android.view.ViewGroup"}
+2022-10-08 11:37:20 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:20 DEBUG Finished Request
+2022-10-08 11:37:20 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u6587\u4ef6']/../android.view.ViewGroup"}
+2022-10-08 11:37:21 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:21 DEBUG Finished Request
+2022-10-08 11:37:21 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u6587\u4ef6']/../android.view.ViewGroup"}
+2022-10-08 11:37:21 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:21 DEBUG Finished Request
+2022-10-08 11:37:22 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u6587\u4ef6']/../android.view.ViewGroup"}
+2022-10-08 11:37:22 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:22 DEBUG Finished Request
+2022-10-08 11:37:23 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u6587\u4ef6']/../android.view.ViewGroup"}
+2022-10-08 11:37:23 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:23 DEBUG Finished Request
+2022-10-08 11:37:23 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u6587\u4ef6']/../android.view.ViewGroup"}
+2022-10-08 11:37:24 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:24 DEBUG Finished Request
+2022-10-08 11:37:24 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u6587\u4ef6']/../android.view.ViewGroup"}
+2022-10-08 11:37:24 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:24 DEBUG Finished Request
+2022-10-08 11:37:25 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u6587\u4ef6']/../android.view.ViewGroup"}
+2022-10-08 11:37:25 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:25 DEBUG Finished Request
+2022-10-08 11:37:25 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u6587\u4ef6']/../android.view.ViewGroup"}
+2022-10-08 11:37:26 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:26 DEBUG Finished Request
+2022-10-08 11:37:26 ERROR 定位不到元素，错误信息为:Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\chenxueqing0724\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+2022-10-08 11:37:26 ERROR 元素对象点击失败，错误信息为：'str' object has no attribute 'click'
+2022-10-08 11:37:26 INFO 输出定位器信息：('xpath', "//*[@text='群设置']/../android.view.ViewGroup")
+2022-10-08 11:37:26 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='群设置']/../android.view.ViewGroup
+2022-10-08 11:37:26 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u8bbe\u7f6e']/../android.view.ViewGroup"}
+2022-10-08 11:37:26 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:26 DEBUG Finished Request
+2022-10-08 11:37:27 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u8bbe\u7f6e']/../android.view.ViewGroup"}
+2022-10-08 11:37:27 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:27 DEBUG Finished Request
+2022-10-08 11:37:28 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u8bbe\u7f6e']/../android.view.ViewGroup"}
+2022-10-08 11:37:28 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:28 DEBUG Finished Request
+2022-10-08 11:37:28 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u8bbe\u7f6e']/../android.view.ViewGroup"}
+2022-10-08 11:37:29 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:29 DEBUG Finished Request
+2022-10-08 11:37:29 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u8bbe\u7f6e']/../android.view.ViewGroup"}
+2022-10-08 11:37:30 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:30 DEBUG Finished Request
+2022-10-08 11:37:30 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u8bbe\u7f6e']/../android.view.ViewGroup"}
+2022-10-08 11:37:30 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:30 DEBUG Finished Request
+2022-10-08 11:37:31 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u8bbe\u7f6e']/../android.view.ViewGroup"}
+2022-10-08 11:37:31 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:31 DEBUG Finished Request
+2022-10-08 11:37:32 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u8bbe\u7f6e']/../android.view.ViewGroup"}
+2022-10-08 11:37:32 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:32 DEBUG Finished Request
+2022-10-08 11:37:32 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u8bbe\u7f6e']/../android.view.ViewGroup"}
+2022-10-08 11:37:33 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:33 DEBUG Finished Request
+2022-10-08 11:37:33 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u8bbe\u7f6e']/../android.view.ViewGroup"}
+2022-10-08 11:37:33 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:33 DEBUG Finished Request
+2022-10-08 11:37:34 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u8bbe\u7f6e']/../android.view.ViewGroup"}
+2022-10-08 11:37:34 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:34 DEBUG Finished Request
+2022-10-08 11:37:35 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u8bbe\u7f6e']/../android.view.ViewGroup"}
+2022-10-08 11:37:35 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:35 DEBUG Finished Request
+2022-10-08 11:37:35 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u8bbe\u7f6e']/../android.view.ViewGroup"}
+2022-10-08 11:37:35 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:35 DEBUG Finished Request
+2022-10-08 11:37:36 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u7fa4\u8bbe\u7f6e']/../android.view.ViewGroup"}
+2022-10-08 11:37:36 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:36 DEBUG Finished Request
+2022-10-08 11:37:37 ERROR 定位不到元素，错误信息为:Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\chenxueqing0724\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+2022-10-08 11:37:37 ERROR 元素对象点击失败，错误信息为：'str' object has no attribute 'click'
+2022-10-08 11:37:40 INFO 输出定位器信息：('xpath', "//*[@text='发送']/../../../android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[1]")
+2022-10-08 11:37:40 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='发送']/../../../android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[1]
+2022-10-08 11:37:40 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d1\u9001']/../../../android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[1]"}
+2022-10-08 11:37:40 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:37:40 DEBUG Finished Request
+2022-10-08 11:37:40 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d1\u9001']/../../../android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[1]"}
+2022-10-08 11:37:41 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:37:41 DEBUG Finished Request
+2022-10-08 11:37:42 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d1\u9001']/../../../android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[1]"}
+2022-10-08 11:37:42 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:37:42 DEBUG Finished Request
+2022-10-08 11:37:43 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d1\u9001']/../../../android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[1]"}
+2022-10-08 11:37:43 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:37:43 DEBUG Finished Request
+2022-10-08 11:37:44 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d1\u9001']/../../../android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[1]"}
+2022-10-08 11:37:44 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:37:44 DEBUG Finished Request
+2022-10-08 11:37:45 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d1\u9001']/../../../android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[1]"}
+2022-10-08 11:37:45 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:37:45 DEBUG Finished Request
+2022-10-08 11:37:45 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d1\u9001']/../../../android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[1]"}
+2022-10-08 11:37:45 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:37:45 DEBUG Finished Request
+2022-10-08 11:37:46 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d1\u9001']/../../../android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[1]"}
+2022-10-08 11:37:46 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:37:46 DEBUG Finished Request
+2022-10-08 11:37:47 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d1\u9001']/../../../android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[1]"}
+2022-10-08 11:37:48 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:37:48 DEBUG Finished Request
+2022-10-08 11:37:48 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d1\u9001']/../../../android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[1]"}
+2022-10-08 11:37:48 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:37:48 DEBUG Finished Request
+2022-10-08 11:37:49 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d1\u9001']/../../../android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[1]"}
+2022-10-08 11:37:49 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:37:49 DEBUG Finished Request
+2022-10-08 11:37:50 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d1\u9001']/../../../android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[1]"}
+2022-10-08 11:37:50 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:37:50 DEBUG Finished Request
+2022-10-08 11:37:51 ERROR 定位不到元素，错误信息为:Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\chenxueqing0724\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+2022-10-08 11:37:51 ERROR 元素对象点击失败，错误信息为：'str' object has no attribute 'click'
+2022-10-08 11:37:51 INFO 输出定位器信息：('xpath', "//*[@text='取消']")
+2022-10-08 11:37:51 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='取消']
+2022-10-08 11:37:51 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d6\u6d88']"}
+2022-10-08 11:37:51 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:37:51 DEBUG Finished Request
+2022-10-08 11:37:52 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d6\u6d88']"}
+2022-10-08 11:37:52 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:37:52 DEBUG Finished Request
+2022-10-08 11:37:52 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d6\u6d88']"}
+2022-10-08 11:37:52 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:37:52 DEBUG Finished Request
+2022-10-08 11:37:53 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d6\u6d88']"}
+2022-10-08 11:37:53 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:37:53 DEBUG Finished Request
+2022-10-08 11:37:54 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d6\u6d88']"}
+2022-10-08 11:37:54 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:37:54 DEBUG Finished Request
+2022-10-08 11:37:54 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d6\u6d88']"}
+2022-10-08 11:37:55 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:37:55 DEBUG Finished Request
+2022-10-08 11:37:55 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d6\u6d88']"}
+2022-10-08 11:37:56 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:37:56 DEBUG Finished Request
+2022-10-08 11:37:56 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d6\u6d88']"}
+2022-10-08 11:37:56 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 576
+2022-10-08 11:37:56 DEBUG Finished Request
+2022-10-08 11:37:57 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d6\u6d88']"}
+2022-10-08 11:37:57 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:57 DEBUG Finished Request
+2022-10-08 11:37:57 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d6\u6d88']"}
+2022-10-08 11:37:58 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:58 DEBUG Finished Request
+2022-10-08 11:37:58 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d6\u6d88']"}
+2022-10-08 11:37:58 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:58 DEBUG Finished Request
+2022-10-08 11:37:59 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d6\u6d88']"}
+2022-10-08 11:37:59 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:37:59 DEBUG Finished Request
+2022-10-08 11:38:00 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u53d6\u6d88']"}
+2022-10-08 11:38:00 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:38:00 DEBUG Finished Request
+2022-10-08 11:38:01 ERROR 定位不到元素，错误信息为:Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\chenxueqing0724\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+2022-10-08 11:38:01 ERROR 元素对象点击失败，错误信息为：'str' object has no attribute 'click'
+2022-10-08 11:38:01 INFO 输出定位器信息：('xpath', "//android.widget.Button[@content-desc='我的, tab, 4 of 4']/android.widget.ImageView")
+2022-10-08 11:38:01 INFO 正在定位元素信息：定位方式->xpath,value值->//android.widget.Button[@content-desc='我的, tab, 4 of 4']/android.widget.ImageView
+2022-10-08 11:38:01 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//android.widget.Button[@content-desc='\u6211\u7684, tab, 4 of 4']/android.widget.ImageView"}
+2022-10-08 11:38:01 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:38:01 DEBUG Finished Request
+2022-10-08 11:38:01 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//android.widget.Button[@content-desc='\u6211\u7684, tab, 4 of 4']/android.widget.ImageView"}
+2022-10-08 11:38:02 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:38:02 DEBUG Finished Request
+2022-10-08 11:38:02 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//android.widget.Button[@content-desc='\u6211\u7684, tab, 4 of 4']/android.widget.ImageView"}
+2022-10-08 11:38:02 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:38:02 DEBUG Finished Request
+2022-10-08 11:38:03 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//android.widget.Button[@content-desc='\u6211\u7684, tab, 4 of 4']/android.widget.ImageView"}
+2022-10-08 11:38:03 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:38:03 DEBUG Finished Request
+2022-10-08 11:38:04 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//android.widget.Button[@content-desc='\u6211\u7684, tab, 4 of 4']/android.widget.ImageView"}
+2022-10-08 11:38:04 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:38:04 DEBUG Finished Request
+2022-10-08 11:38:05 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//android.widget.Button[@content-desc='\u6211\u7684, tab, 4 of 4']/android.widget.ImageView"}
+2022-10-08 11:38:05 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:38:05 DEBUG Finished Request
+2022-10-08 11:38:05 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//android.widget.Button[@content-desc='\u6211\u7684, tab, 4 of 4']/android.widget.ImageView"}
+2022-10-08 11:38:05 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:38:05 DEBUG Finished Request
+2022-10-08 11:38:06 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//android.widget.Button[@content-desc='\u6211\u7684, tab, 4 of 4']/android.widget.ImageView"}
+2022-10-08 11:38:06 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:38:06 DEBUG Finished Request
+2022-10-08 11:38:07 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//android.widget.Button[@content-desc='\u6211\u7684, tab, 4 of 4']/android.widget.ImageView"}
+2022-10-08 11:38:07 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:38:07 DEBUG Finished Request
+2022-10-08 11:38:07 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//android.widget.Button[@content-desc='\u6211\u7684, tab, 4 of 4']/android.widget.ImageView"}
+2022-10-08 11:38:08 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:38:08 DEBUG Finished Request
+2022-10-08 11:38:08 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//android.widget.Button[@content-desc='\u6211\u7684, tab, 4 of 4']/android.widget.ImageView"}
+2022-10-08 11:38:08 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:38:08 DEBUG Finished Request
+2022-10-08 11:38:09 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//android.widget.Button[@content-desc='\u6211\u7684, tab, 4 of 4']/android.widget.ImageView"}
+2022-10-08 11:38:09 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:38:09 DEBUG Finished Request
+2022-10-08 11:38:09 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//android.widget.Button[@content-desc='\u6211\u7684, tab, 4 of 4']/android.widget.ImageView"}
+2022-10-08 11:38:10 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:38:10 DEBUG Finished Request
+2022-10-08 11:38:10 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//android.widget.Button[@content-desc='\u6211\u7684, tab, 4 of 4']/android.widget.ImageView"}
+2022-10-08 11:38:10 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:38:10 DEBUG Finished Request
+2022-10-08 11:38:11 ERROR 定位不到元素，错误信息为:Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\chenxueqing0724\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+2022-10-08 11:38:11 ERROR 元素对象点击失败，错误信息为：'str' object has no attribute 'click'
+2022-10-08 11:38:11 INFO 输出定位器信息：('xpath', "//*[@text='清除缓存']")
+2022-10-08 11:38:11 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='清除缓存']
+2022-10-08 11:38:11 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u6e05\u9664\u7f13\u5b58']"}
+2022-10-08 11:38:11 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 200 137
+2022-10-08 11:38:11 DEBUG Finished Request
+2022-10-08 11:38:11 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="70622569-ad6a-4316-863b-3219cb086e19", element="00000000-0000-0223-ffff-ffff00000252")>
+2022-10-08 11:38:11 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element/00000000-0000-0223-ffff-ffff00000252/click {"id": "00000000-0000-0223-ffff-ffff00000252"}
+2022-10-08 11:38:11 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element/00000000-0000-0223-ffff-ffff00000252/click HTTP/1.1" 200 14
+2022-10-08 11:38:11 DEBUG Finished Request
+2022-10-08 11:38:11 INFO 元素对象点击成功
+2022-10-08 11:38:11 INFO 输出定位器信息：('xpath', "//*[@text='确定']")
+2022-10-08 11:38:11 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='确定']
+2022-10-08 11:38:11 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u786e\u5b9a']"}
+2022-10-08 11:38:11 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 404 540
+2022-10-08 11:38:11 DEBUG Finished Request
+2022-10-08 11:38:12 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "xpath", "value": "//*[@text='\u786e\u5b9a']"}
+2022-10-08 11:38:12 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 200 137
+2022-10-08 11:38:12 DEBUG Finished Request
+2022-10-08 11:38:12 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="70622569-ad6a-4316-863b-3219cb086e19", element="00000000-0000-0226-ffff-ffff000002bc")>
+2022-10-08 11:38:12 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element/00000000-0000-0226-ffff-ffff000002bc/click {"id": "00000000-0000-0226-ffff-ffff000002bc"}
+2022-10-08 11:38:12 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element/00000000-0000-0226-ffff-ffff000002bc/click HTTP/1.1" 200 14
+2022-10-08 11:38:12 DEBUG Finished Request
+2022-10-08 11:38:12 INFO 元素对象点击成功
+2022-10-08 11:38:12 INFO 输出定位器信息：('id', 'android:id/button1')
+2022-10-08 11:38:12 INFO 正在定位元素信息：定位方式->id,value值->android:id/button1
+2022-10-08 11:38:12 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element {"using": "id", "value": "android:id/button1"}
+2022-10-08 11:38:13 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element HTTP/1.1" 200 137
+2022-10-08 11:38:13 DEBUG Finished Request
+2022-10-08 11:38:13 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="70622569-ad6a-4316-863b-3219cb086e19", element="00000000-0000-0227-ffff-ffff000002df")>
+2022-10-08 11:38:13 DEBUG POST http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element/00000000-0000-0227-ffff-ffff000002df/click {"id": "00000000-0000-0227-ffff-ffff000002df"}
+2022-10-08 11:38:13 DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19/element/00000000-0000-0227-ffff-ffff000002df/click HTTP/1.1" 200 14
+2022-10-08 11:38:13 DEBUG Finished Request
+2022-10-08 11:38:13 INFO 元素对象点击成功
+2022-10-08 11:38:23 DEBUG DELETE http://127.0.0.1:4723/wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19 {}
+2022-10-08 11:38:24 DEBUG http://127.0.0.1:4723 "DELETE /wd/hub/session/70622569-ad6a-4316-863b-3219cb086e19 HTTP/1.1" 200 14
+2022-10-08 11:38:24 DEBUG Finished Request

@@ -1,0 +1,50 @@
+10:44:39 INFO 输出定位器信息：('xpath', "//*[@text='登录']/../../../../android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.EditText")
+10:44:39 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='登录']/../../../../android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.EditText
+10:44:40 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="3c55d50c-6bc7-4312-8c48-9ebd81a1d97d", element="00000000-0000-008b-ffff-ffff00000030")>
+10:44:40 INFO 元素对象清空成功
+10:44:40 INFO 输出定位器信息：('xpath', "//*[@text='登录']/../../../../android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.EditText")
+10:44:40 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='登录']/../../../../android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.EditText
+10:44:41 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="3c55d50c-6bc7-4312-8c48-9ebd81a1d97d", element="00000000-0000-008b-ffff-ffff00000030")>
+10:44:41 INFO 元素对象输入值成功，值为：shengjiaxin
+10:44:41 INFO 输出定位器信息：('xpath', "//*[@text='请输入密码']")
+10:44:41 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='请输入密码']
+10:44:42 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="3c55d50c-6bc7-4312-8c48-9ebd81a1d97d", element="00000000-0000-008b-ffff-ffff00000037")>
+10:44:43 INFO 元素对象输入值成功，值为：sheng703257
+10:44:43 INFO 输出定位器信息：('xpath', "//*[@text='登录']")
+10:44:43 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='登录']
+10:44:43 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="3c55d50c-6bc7-4312-8c48-9ebd81a1d97d", element="00000000-0000-008b-ffff-ffff0000003f")>
+10:44:44 INFO 元素对象点击成功
+10:44:44 INFO 输出定位器信息：('xpath', "//*[@text = '搜索']")
+10:44:44 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text = '搜索']
+10:44:48 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="3c55d50c-6bc7-4312-8c48-9ebd81a1d97d", element="00000000-0000-008b-ffff-ffff0000008f")>
+10:44:48 INFO 元素对象点击成功
+10:44:48 INFO 输出定位器信息：('xpath', "//*[@class ='android.widget.EditText' and @text='搜索']")
+10:44:48 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@class ='android.widget.EditText' and @text='搜索']
+10:44:50 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="3c55d50c-6bc7-4312-8c48-9ebd81a1d97d", element="00000000-0000-008b-ffff-ffff0000011d")>
+10:44:51 INFO 元素对象输入值成功，值为：谌雪晴
+10:44:54 INFO 输出定位器信息：('xpath', "//*[@text='联系人']/../../android.view.ViewGroup[2]")
+10:44:54 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='联系人']/../../android.view.ViewGroup[2]
+10:44:54 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="3c55d50c-6bc7-4312-8c48-9ebd81a1d97d", element="00000000-0000-008b-ffff-ffff0000012b")>
+10:44:54 INFO 元素对象点击成功
+10:44:56 INFO 正在进行元素断言：断言方式->True：是否等于True
+10:45:01 INFO 正在进行元素断言：断言方式->True：是否等于True
+10:45:04 INFO 输出定位器信息：('xpath', "(//*[@resource-id='headerContainer']/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[1])[2]")
+10:45:04 INFO 正在定位元素信息：定位方式->xpath,value值->(//*[@resource-id='headerContainer']/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[1])[2]
+10:45:05 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="3c55d50c-6bc7-4312-8c48-9ebd81a1d97d", element="00000000-0000-008b-ffff-ffff0000015a")>
+10:45:05 INFO 元素对象点击成功
+10:45:10 INFO 输出定位器信息：('xpath', "//*[@text='取消']")
+10:45:10 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='取消']
+10:45:10 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="3c55d50c-6bc7-4312-8c48-9ebd81a1d97d", element="00000000-0000-008b-ffff-ffff00000120")>
+10:45:10 INFO 元素对象点击成功
+10:45:13 INFO 输出定位器信息：('xpath', '//android.widget.Button[@content-desc="我的, tab, 4 of 4"]')
+10:45:13 INFO 正在定位元素信息：定位方式->xpath,value值->//android.widget.Button[@content-desc="我的, tab, 4 of 4"]
+10:45:14 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="3c55d50c-6bc7-4312-8c48-9ebd81a1d97d", element="00000000-0000-008b-ffff-ffff00000071")>
+10:45:14 INFO 元素对象点击成功
+10:45:16 INFO 输出定位器信息：('xpath', "//*[@text='退出登录']")
+10:45:16 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='退出登录']
+10:45:16 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="3c55d50c-6bc7-4312-8c48-9ebd81a1d97d", element="00000000-0000-008b-ffff-ffff000001e5")>
+10:45:16 INFO 元素对象点击成功
+10:45:18 INFO 输出定位器信息：('xpath', "//*[@text='确定']")
+10:45:18 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='确定']
+10:45:18 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="3c55d50c-6bc7-4312-8c48-9ebd81a1d97d", element="00000000-0000-008b-ffff-ffff000001f7")>
+10:45:18 INFO 元素对象点击成功

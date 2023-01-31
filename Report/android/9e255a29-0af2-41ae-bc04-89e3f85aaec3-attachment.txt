@@ -1,0 +1,24 @@
+13:35:45 INFO 输出定位器信息：('xpath', '//android.widget.Button[@content-desc="通讯录, tab, 3 of 4"]')
+13:35:45 INFO 正在定位元素信息：定位方式->xpath,value值->//android.widget.Button[@content-desc="通讯录, tab, 3 of 4"]
+13:35:46 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="a8e18e63-1c5e-4f1a-9b24-216e876f18e0", element="00000000-0000-0446-ffff-ffff00000045")>
+13:35:46 INFO 元素对象点击成功
+13:35:46 INFO 输出定位器信息：('xpath', "//*[@text ='组织架构']")
+13:35:46 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text ='组织架构']
+13:35:47 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="a8e18e63-1c5e-4f1a-9b24-216e876f18e0", element="00000000-0000-0446-ffff-ffff000000fe")>
+13:35:47 INFO 元素对象点击成功
+13:35:50 INFO 正在进行元素断言：断言方式->True：是否等于True
+13:35:51 INFO 正在进行元素断言：断言方式->True：是否等于True
+13:35:51 INFO 输出定位器信息：('xpath', "//*[@text ='研发中心']")
+13:35:51 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text ='研发中心']
+13:35:51 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="a8e18e63-1c5e-4f1a-9b24-216e876f18e0", element="00000000-0000-0446-ffff-ffff00000125")>
+13:35:51 INFO 元素对象点击成功
+13:35:53 INFO 正在进行元素断言：断言方式->True：是否等于True
+13:35:53 INFO 输出定位器信息：('xpath', "//*[@text ='焦点科技']")
+13:35:53 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text ='焦点科技']
+13:36:04 ERROR 定位不到元素，错误信息为:Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\chenxueqing0724\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+13:36:04 ERROR 元素对象点击失败，错误信息为：'str' object has no attribute 'click'
+13:36:05 INFO 正在进行元素断言：断言方式->True：是否等于True

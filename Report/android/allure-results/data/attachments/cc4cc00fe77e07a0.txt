@@ -1,0 +1,31 @@
+13:21:29 ERROR 不需要权限校验
+13:21:32 INFO 输出定位器信息：('xpath', '//android.widget.Button[@content-desc="我的, tab, 4 of 4"]')
+13:21:32 INFO 正在定位元素信息：定位方式->xpath,value值->//android.widget.Button[@content-desc="我的, tab, 4 of 4"]
+13:21:32 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="21618306-9a36-4bea-b516-a273f21482d3", element="00000000-0000-0379-ffff-ffff0000004c")>
+13:21:32 INFO 元素对象点击成功
+13:21:34 INFO 输出定位器信息：('xpath', "//*[@text='退出登录']")
+13:21:34 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='退出登录']
+13:21:35 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="21618306-9a36-4bea-b516-a273f21482d3", element="00000000-0000-0379-ffff-ffff00000111")>
+13:21:35 INFO 元素对象点击成功
+13:21:37 INFO 输出定位器信息：('xpath', "//*[@text='确定']")
+13:21:37 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='确定']
+13:21:37 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="21618306-9a36-4bea-b516-a273f21482d3", element="00000000-0000-0379-ffff-ffff00000123")>
+13:21:38 INFO 元素对象点击成功
+13:21:42 INFO 输出定位器信息：('xpath', "//*[@text='登录']/../../../../android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.EditText")
+13:21:42 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='登录']/../../../../android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.EditText
+13:21:42 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="21618306-9a36-4bea-b516-a273f21482d3", element="00000000-0000-0379-ffff-ffff00000136")>
+13:21:42 INFO 元素对象清空成功
+13:21:42 INFO 输出定位器信息：('xpath', "//*[@text='登录']/../../../../android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.EditText")
+13:21:42 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='登录']/../../../../android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.EditText
+13:21:43 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="21618306-9a36-4bea-b516-a273f21482d3", element="00000000-0000-0379-ffff-ffff00000136")>
+13:21:43 INFO 元素对象输入值成功，值为：chenxueqing0724
+13:21:43 INFO 输出定位器信息：('xpath', "//*[@text='请输入密码']")
+13:21:43 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='请输入密码']
+13:21:44 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="21618306-9a36-4bea-b516-a273f21482d3", element="00000000-0000-0379-ffff-ffff0000013d")>
+13:21:45 INFO 元素对象输入值成功，值为：07010724cxq
+13:21:45 INFO 输出定位器信息：('xpath', "//*[@text='登录']")
+13:21:45 INFO 正在定位元素信息：定位方式->xpath,value值->//*[@text='登录']
+13:21:45 INFO 元素对象为：<appium.webdriver.webelement.WebElement (session="21618306-9a36-4bea-b516-a273f21482d3", element="00000000-0000-0379-ffff-ffff00000145")>
+13:21:46 INFO 元素对象点击成功
+13:21:52 ERROR 不需要权限校验
+13:22:08 INFO 正在进行元素断言：断言方式->True：是否等于True

@@ -1,0 +1,128 @@
+# coding=utf-8
+from appium.webdriver.common.touch_action import TouchAction
+from selenium.webdriver.support.wait import WebDriverWait
+import logging
+
+
+def get_locator(activity_elem_class, elem_name):
+    """
+    @param activity_elem_class:传入页面元素对象
+    @param elem_name:传入自定义的元素名称
+    @return:
+    """
+    activity_obj_elem = activity_elem_class()
+    elems_info = activity_obj_elem.info
+    for item in elems_info:
+        if item.info["elem_name"] == elem_name:
+            elem_locator = ("By.{}".format(item["data"]["method"]), item["data"]["value"])
+            method = item["data"]["method"]
+            value = item["data"]["value"]
+            logging.info("元素名称为：{}，元素定位方式为：{}，元素对象值为：{}".format(elem_name, method, value))
+            if method == "ID" and value is not None:
+                return elem_locator
+            elif method == "XPATH" and value is not None:
+                return elem_locator
+            elif method == "ANDROID_UIAUTOMATOR" and value is not None:
+                return elem_locator
+            else:
+                logging.error("元素名称：{}，此元素定位方式异常，定位元素值异常，请检查！！！".format(elem_name))
+
+
+# Base层封装的是元素的操作方法
+class Base:
+    def __init__(self, driver):
+        self.driver = driver
+        self.timeout = 10
+        self.poll_frequency = 0.5
+
+    def find_element(self, locator):
+        logging.info("输出定位器信息：{}".format(locator))
+        """
+        :param locator: 传入定位器参数locator=(By.XX,"value")
+        :return: 返回元素对象
+        """
+        if not isinstance(locator, tuple):
+            logging.error('locator参数类型错误，必须传元组tuple类型：locator=(By.XX,"value")')
+        else:
+            logging.info("正在定位元素信息：定位方式->%s,value值->%s" % (locator[0], locator[1]))
+            try:
+                elem = WebDriverWait(self.driver, self.timeout, self.poll_frequency).until(
+                    lambda x: x.find_element(*locator))
+                logging.info("元素对象为：{}".format(elem))
+                return elem
+            except Exception as e:
+                logging.error("定位不到元素，错误信息为:{}".format(e))
+                return "定位不到元素"
+
+    def send_key(self, locator, value):
+        """
+        @param locator: 定位器
+        @param value: value
+        """
+        elem = self.find_element(locator)
+        try:
+            elem.send_keys(value)
+            logging.info("元素对象输入值成功，值为：{}".format(value))
+        except Exception as e:
+            logging.error("元素对象输入值失败，错误信息为：{}".format(e))
+
+    def value_clear(self, locator):
+        """
+        @param locator: 定位器
+        """
+        elem = self.find_element(locator)
+        try:
+            elem.clear()
+            logging.info("元素对象清空成功")
+        except Exception as e:
+            logging.error("元素对象清空失败，错误信息为：{}".format(e))
+
+    def click_btn(self, locator):
+        """
+
+        @param locator: 定位器
+        """
+        elem = self.find_element(locator)
+        try:
+            elem.click()
+            logging.info("元素对象点击成功")
+        except Exception as e:
+            logging.error("元素对象点击失败，错误信息为：{}".format(e))
+
+    def long_press(self, locator, time):
+        try:
+            action = TouchAction(self.driver)
+            ele = self.find_element(locator)
+            action.long_press(ele, duration=time).wait(1000).perform()
+            logging.info("元素对象长按")
+        except Exception as e:
+            logging.error("元素对象长按失败".format(e))
+
+    def kill_app(self):
+        try:
+            self.driver.close_app()
+            logging.info("杀进程中···")
+        except Exception as e:
+            logging.error("杀进程失败".format(e))
+
+    def restart_app(self):
+        try:
+            self.driver.launch_app()
+            logging.info("重连中···")
+        except Exception as e:
+            logging.error("重连失败".format(e))
+
+    def check_select_is_existence(self, locator):
+        """
+        @param locator: 定位器
+        @return: 返回TRUE、FALSE
+        """
+        try:
+            self.find_element(locator)
+            return True
+        except Exception as e:
+            return False
+
+
+if __name__ == "__main__":
+    pass
